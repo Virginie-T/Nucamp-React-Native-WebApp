@@ -40,3 +40,13 @@ class Directory extends Component {
 }
 
 export default Directory;
+
+// data vs memory address 
+// mutating data
+// what is immutable data
+// truthy / falsy  ( == )
+
+
+
+
+
