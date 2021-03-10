@@ -5,10 +5,11 @@ import Contact from './ContactComponent';
 import Directory from './DirectoryComponent';
 import { View, Platform, StyleSheet, Text, ScrollView, Image } from 'react-native';
 import { createStackNavigator } from 'react-navigation-stack';
-import { createDrawerNavigator } from 'react-navigation-drawer';
+import { createDrawerNavigator, DrawerItems } from 'react-navigation-drawer';
 import { createAppContainer } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 import SafeAreaView from 'react-native-safe-area-view';
+
 
 
 const DirectoryNavigator = createStackNavigator(
@@ -185,6 +186,7 @@ const MainNavigator = createDrawerNavigator(
     },
     {
         drawerBackgroundColor: '#CEC8FF',
+        contentComponent: CustomDrawerContentComponent
     }
 );
 
