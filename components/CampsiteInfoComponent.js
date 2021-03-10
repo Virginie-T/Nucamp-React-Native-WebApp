@@ -71,13 +71,6 @@ function RenderCampsite(props) {
 
 class CampsiteInfo extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            favorite: false
-        };
-    }
-
     static navigationOptions = {
         title: 'Campsite Information'
     }
