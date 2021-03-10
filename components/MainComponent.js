@@ -19,8 +19,6 @@ const mapDispatchToProps = {
     fetchPartners
 };
 
-
-
 const DirectoryNavigator = createStackNavigator(
     {
         Directory: { 
